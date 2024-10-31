@@ -30,7 +30,6 @@ function GuessForm() {
     gender: 'Gender',
     filiation: 'Filiation',
     occupation: 'Occupation',
-    age: 'Age',
     race: 'Race',
     abilities: 'Abilities',
     combatPower: 'combatPower',
@@ -245,7 +244,7 @@ function GuessForm() {
       }
 
       const characteristics = [
-        'gender', 'filiation', 'occupation', 'age', 'race', 'abilities', 'combatPower', 'specialWeapon'
+        'gender', 'filiation', 'occupation', 'race', 'abilities', 'combatPower', 'specialWeapon'
       ];
 
       const allMatched = characteristics.every((characteristic) => {
@@ -344,7 +343,7 @@ function GuessForm() {
   const { selectedCharacter, dailyCharacter } = comparison;
 
   const characteristics = [
-    'characterImg', 'gender', 'filiation', 'occupation', 'age', 'race', 'abilities', 'combatPower', 'specialWeapon', 
+    'characterImg', 'gender', 'filiation', 'occupation', 'race', 'abilities', 'combatPower', 'specialWeapon', 
   ];
 
   return (
@@ -457,7 +456,7 @@ function GuessForm() {
       {/* Renderize os labels apenas uma vez */}
       <div className="comparison-labels">
         {[
-          'Character', 'Gender', 'Filiation', 'Occupation', 'Age', 'Race', 'Abilities', 'Combat Power', 'Special Weapon',
+          'Character', 'Gender', 'Filiation', 'Occupation', 'Race', 'Abilities', 'Combat Power/Fortitude', 'Special Weapon',
         ].map((label, index) => (
           <div key={index} className="label-item">
             <strong>{label}</strong>
