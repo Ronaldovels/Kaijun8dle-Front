@@ -3,4 +3,5 @@ div#guessFormContainer {
     align-items: center;
     justify-content: center;
     height: 100%;
+    margin-bottom: 50px;
 }

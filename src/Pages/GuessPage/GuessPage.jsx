@@ -2,6 +2,7 @@ import React from "react";
 import './GuessPage.css'
 import Banner from '../../componentes/HomeBanner/HomeBanner'
 import GuessForm from '../../componentes/GuessForm/GuessForm'
+import Others from '../../componentes/Others/Others';
 
 function GuessPage() {
 
@@ -11,7 +12,7 @@ function GuessPage() {
       <div id="guessFormContainer">
         <GuessForm />
       </div>
-
+      <Others/>
     </div>
   )
 

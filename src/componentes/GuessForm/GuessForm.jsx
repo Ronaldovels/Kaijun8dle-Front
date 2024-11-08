@@ -244,7 +244,7 @@ function GuessForm() {
       }
 
       const characteristics = [
-        'gender', 'filiation', 'occupation', 'race', 'abilities', 'combatPower', 'specialWeapon'
+        'name', 'gender', 'filiation', 'occupation', 'race', 'abilities', 'combatPower', 'specialWeapon'
       ];
 
       const allMatched = characteristics.every((characteristic) => {
